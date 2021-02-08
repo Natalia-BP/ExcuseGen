@@ -6,7 +6,7 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = () => {
-  document.querySelector("#excuse").innerHTML = myExcuse();
+  document.querySelector("h2.excuse").innerHTML = myExcuse();
 };
 
 function myExcuse() {
